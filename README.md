@@ -1,4 +1,4 @@
-# LouisVuitton API
+# LouisVuittonAPI
 API for Louis Vuitton written in Python by Luke Davis ([@R8T3D](http://www.twitter.com/R8T3D))
 
 ## Features
