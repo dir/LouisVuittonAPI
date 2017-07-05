@@ -21,11 +21,13 @@ class LouisVuittonAPI(object):
         # I can't be asked to add more regions, do that yourself.
         self.region_to_url = {
         'UK': 'uk.louisvuitton.com',
-        'US': 'us.louisvuitton.com' 
+        'US': 'us.louisvuitton.com',
+        'AU': 'au.louisvuitton.com'
         }
 
         self.region_to_lang = {
         'UK': 'eng-gb',
+        'AU': 'eng-au',
         'US': 'eng-us'
         }
 
