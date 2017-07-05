@@ -21,12 +21,22 @@ class LouisVuittonAPI(object):
         # I can't be asked to add more regions, do that yourself.
         self.region_to_url = {
         'UK': 'uk.louisvuitton.com',
-        'US': 'us.louisvuitton.com' 
+        'US': 'us.louisvuitton.com',
+        'AU': 'au.louisvuitton.com',
+        'HK': 'hk.louisvuitton.com',
+        'EU': 'eu.louisvuitton.com',
+        'KR': 'kr.louisvuitton.com',
+        'JP': 'jp.louisvuitton.com'
         }
 
         self.region_to_lang = {
         'UK': 'eng-gb',
-        'US': 'eng-us'
+        'AU': 'eng-au',
+        'US': 'eng-us',
+        'HK': 'eng-hk',
+        'EU': 'eng-e1',
+        'KR': 'kor-kr',
+        'JP': 'jpn-jp'
         }
 
         try:
@@ -211,7 +221,7 @@ if __name__ == '__main__':
 
     browser = raw_input("Browser? (Y/N) ")
 
-    region = raw_input("Region? ")
+    region = raw_input("Region? Options: US,UK,JP,EU,AU,KR,")
     if browser.upper() == "Y":
         browser = True
     else:
