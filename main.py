@@ -221,7 +221,7 @@ if __name__ == '__main__':
 
     browser = raw_input("Browser? (Y/N) ")
 
-    region = raw_input("Region? ")
+    region = raw_input("Region? Options: US,UK,JP,EU,AU,KR,")
     if browser.upper() == "Y":
         browser = True
     else:
