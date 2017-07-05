@@ -22,13 +22,21 @@ class LouisVuittonAPI(object):
         self.region_to_url = {
         'UK': 'uk.louisvuitton.com',
         'US': 'us.louisvuitton.com',
-        'AU': 'au.louisvuitton.com'
+        'AU': 'au.louisvuitton.com',
+        'HK': 'hk.louisvuitton.com',
+        'EU': 'eu.louisvuitton.com',
+        'KR': 'kr.louisvuitton.com',
+        'JP': 'jp.louisvuitton.com'
         }
 
         self.region_to_lang = {
         'UK': 'eng-gb',
         'AU': 'eng-au',
-        'US': 'eng-us'
+        'US': 'eng-us',
+        'HK': 'eng-hk',
+        'EU': 'eng-e1',
+        'KR': 'kor-kr',
+        'JP': 'jpn-jp'
         }
 
         try:
